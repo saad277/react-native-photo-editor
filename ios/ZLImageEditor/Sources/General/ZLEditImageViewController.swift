@@ -469,7 +469,7 @@ public class ZLEditImageViewController: UIViewController {
         self.doneBtn = UIButton(type: .custom)
         self.doneBtn.titleLabel?.font = ZLImageEditorLayout.bottomToolTitleFont
         //self.doneBtn.backgroundColor = ZLImageEditorConfiguration.default().editDoneBtnBgColor
-        self.doneBtn.backgroundColor = UIColor(hex: "#FF5733")
+        self.doneBtn.backgroundColor = UIColor(hex: "#FF1010")
         self.doneBtn.setTitleColor(ZLImageEditorConfiguration.default().editDoneTitleColor, for: .normal)
         self.doneBtn.setTitle(localLanguageTextValue(.editFinish), for: .normal)
         self.doneBtn.addTarget(self, action: #selector(doneBtnClick), for: .touchUpInside)
@@ -1152,7 +1152,7 @@ extension ZLEditImageViewController: UICollectionViewDataSource, UICollectionVie
             cell.imageView.image = image
             
             if self.currentFilter === filter {
-                cell.nameLabel.backgroundColor = UIColor(hex: "#FF5733")
+                cell.nameLabel.backgroundColor = UIColor(hex: "#FF1010")
                 
                 cell.nameLabel.font = UIFont.systemFont(ofSize: 11, weight: .semibold)
                 cell.nameLabel.textColor = ZLImageEditorConfiguration.default().editDoneTitleColor
