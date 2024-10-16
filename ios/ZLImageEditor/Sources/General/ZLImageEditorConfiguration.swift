@@ -134,7 +134,7 @@ public class ZLImageEditorConfiguration: NSObject {
     /// The background color of edit done button.
     @objc public var editDoneBtnBgColor: UIColor = zlRGB(80, 169, 56)
     
-    @objc public var editDoneTitleColor: UIColor = .black
+    @objc public var editDoneTitleColor: UIColor = .white
 }
 
 
