@@ -139,7 +139,7 @@ class ZLInputTextViewController: UIViewController {
         self.textView.returnKeyType = .done
         self.textView.delegate = self
         self.textView.backgroundColor = .clear
-        self.textView.tintColor = ZLImageEditorConfiguration.default().editDoneBtnBgColor
+        self.textView.tintColor = .white
         self.textView.textColor = self.currentTextColor
         self.textView.text = self.text
         self.textView.font = UIFont.boldSystemFont(ofSize: ZLTextStickerView.fontSize)
