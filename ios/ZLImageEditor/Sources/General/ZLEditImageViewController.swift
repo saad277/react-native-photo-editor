@@ -1152,7 +1152,7 @@ extension ZLEditImageViewController: UICollectionViewDataSource, UICollectionVie
             cell.imageView.image = image
             
             if self.currentFilter === filter {
-                cell.nameLabel.backgroundColor = ZLImageEditorConfiguration.default().editDoneBtnBgColor
+                cell.nameLabel.backgroundColor = UIColor(hex: "#FF5733")
                 
                 cell.nameLabel.font = UIFont.systemFont(ofSize: 11, weight: .semibold)
                 cell.nameLabel.textColor = ZLImageEditorConfiguration.default().editDoneTitleColor
